@@ -1,2 +1,22 @@
+[package]
+name = "rxvm"
+version = "1.0.0"
+description = "RandomX Proof-of-Work algorithm"
+authors = ["Jeeyong Um <conr2d@proton.me>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/conr2d/rxvm.git"
+documentation = "https://docs.rs/rxvm"
+keywords = ["blockchain", "consensus", "proof-of-work", "randomx"]
+categories = ["cryptography::cryptocurrencies"]
+exclude = [".github"]
+
+[dependencies]
+bitflags = "2.8"
+rxvm-sys = { path = "sys" }
+
+[dev-dependencies]
+const-hex = "1.14"
+
 [workspace]
 members = ["sys"]
