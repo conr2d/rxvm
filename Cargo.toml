@@ -13,7 +13,7 @@ exclude = [".github"]
 
 [dependencies]
 bitflags = "2.8"
-rxvm-sys = { path = "sys" }
+rxvm-sys = { version = "1.0", path = "sys" }
 
 [dev-dependencies]
 const-hex = "1.14"
